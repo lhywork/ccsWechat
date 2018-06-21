@@ -1,0 +1,14 @@
+<!--登陆-->
+  <view class="container">
+    <view class='page-main'>
+        <image class='loginimg' src="../../images/login01.jpg"></image>
+        <view class='page-form'>
+            <input class='number-input' type='number' placeholder='请输入手机号码' maxlength='11'></input>
+        </view>
+        <view class='page-form'>
+            <input class='pwd-input' type='password' placeholder='请输入密码' ></input>
+        </view>
+        <button class='login-button'>下一步</button>
+    </view>
+  </view> 
+

@@ -1,22 +1,14 @@
-//index.js
+//newaddress.js
 //获取应用实例
 const app = getApp()
 
 Page({
   data: {
     motto: 'Hello World',
-    imgUrls: [
-      '../../images/index04.jpg',
-      '../../images/index04.jpg',
-      '../../images/index04.jpg'
-    ],
     userInfo: {},
-    autoplay: true,
-    indicatorDots: true,
     hasUserInfo: false,
-    indicatorColor: '#ffffff',
-    indicatorActiveColor: '#dd271e',
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    region: ['省', '市', '区'],
   },
   //事件处理函数
   bindViewTap: function() {
@@ -58,6 +50,12 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  bindRegionChange: function (e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      region: e.detail.value
     })
   }
 })

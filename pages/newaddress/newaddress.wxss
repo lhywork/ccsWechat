@@ -1,0 +1,90 @@
+/**newaddress.wxss**/
+page{
+  width: 100%;
+  min-height: 100%;
+  background-color: #f7f7f7;
+}
+.page-main {
+  width: 750rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+.new-main{
+	width: 696rpx;
+	margin: 0 auto;
+}
+.new-name{
+	width: 696rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1px solid #dddddd;
+	color: #999999;
+	font-size: 30rpx;
+}
+.new-number{
+	width: 696rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1px solid #dddddd;
+	color: #999999;
+	font-size: 30rpx;
+}
+.new-address{
+	width: 696rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1px solid #dddddd;
+	color: #333333;
+	font-size: 30rpx;
+}
+.new-Provinces{
+	float: left;
+}
+.new-symbol{
+	float: right;
+}
+.new-street{
+	width: 696rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1px solid #dddddd;
+	color: #999999;
+	font-size: 30rpx;
+}
+.new-email{
+	width: 696rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1px solid #dddddd;
+	color: #999999;
+	font-size: 30rpx;
+}
+.new-detailed{
+	margin: 0 auto;
+	width: 696rpx;
+	height: 223rpx;
+	color: #999999;
+	font-size: 30rpx;
+	padding-top: 47rpx;
+	padding-left: 0px;
+}
+.page-bottom{
+	width: 750rpx;
+	height: 126rpx;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+.page-save{
+	width: 680rpx;
+	height: 84rpx;
+	line-height: 84rpx;
+	background-color: #dc2f33;
+	border-radius:40rpx;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	margin-top: 25rpx;
+	font-size:28rpx;
+}

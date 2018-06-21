@@ -1,0 +1,41 @@
+<!--管理收货地址-->
+  <view class="container">
+    <view class='page-main'>
+       <view class='add-main'>
+            <view class='add-top clearfix'>
+                <view class='add-top1'>
+                    <image class='addtop-img1' src="../../images/manageaddress01.png"></image>
+                    <text class='addtop-text1'>收货地址</text>
+                </view>
+                <view class='add-top3'>
+                    <image class='addtop-img3' src="../../images/manageaddress03.png"></image>
+                    <text class='addtop-text3'>编辑</text>
+                </view>
+                <view class='add-top2'>
+                    <image class='addtop-img2' src="../../images/manageaddress02.png"></image>
+                    <text class='addtop-text2'>编辑</text>
+                </view>
+            </view>
+            <view class='add-midden clearfix'>
+                <view class='add-midden1'>
+                    <text>收货人：</text>
+                    <text>刘超伟</text>
+                </view>
+                <view class='add-midden2'>15649852564</view>
+            </view>
+            <view class='add-bottom'>浙江杭州市拱墅区祥园路166号华滋科欣4号楼9楼浙江杭州市拱墅区祥园路166号华滋科欣4号楼9楼</view>
+       </view>
+       <view class='add-main2'>
+            <view class='add-default'>默认地址</view>
+            <view class='add-midden clearfix'>
+                <view class='add-midden1'>
+                    <text>收货人：</text>
+                    <text>刘超伟</text>
+                </view>
+                <view class='add-midden2'>15649852564</view>
+            </view>
+            <view class='add-bottom'>浙江杭州市拱墅区祥园路166号华滋科欣4号楼9楼浙江杭州市拱墅区祥园路166号华滋科欣4号楼9楼</view>
+       </view>
+    </view>
+  </view> 
+

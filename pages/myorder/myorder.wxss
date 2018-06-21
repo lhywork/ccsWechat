@@ -1,0 +1,149 @@
+/**myorder.wxss**/
+page{
+  width: 100%;
+  min-height: 100%;
+  background-color: #f7f7f7;
+} 
+.navbar{
+    width: 750rpx;
+    position: fixed;
+    z-index: 10
+}
+.navbarz{
+    width: 750rpx;
+    display: flex;
+    height: 60rpx;
+    line-height: 60rpx;
+    padding-bottom: 10rpx;
+    border-bottom: 1rpx solid #dddddd;
+    background: #fff;
+}
+.nav-li{
+    font-size: 28rpx;
+    flex-grow: 1;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+}
+.nav-li text{
+   display: inline-block;
+
+}
+.nav-li .active{
+    border-bottom: 5rpx solid #dc2f33;
+}
+.page-main {
+  width: 750rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 78rpx;
+}
+.order-main{
+  width: 694rpx;
+  border:1rpx solid #fff;
+  border-radius: 10rpx;
+  margin:0 auto 58rpx auto;
+  box-shadow: 0rpx 6rpx 5rpx #ccc;
+
+}
+.order-main:first-child{
+  width: 694rpx;
+  background-color: #fff;
+  border:1rpx solid #fff;
+  border-radius: 10rpx;
+  margin:58rpx auto 58rpx auto;
+  box-shadow: 0rpx 6rpx 5rpx #ccc;
+
+}
+.order-top{
+  width: 624rpx;
+  margin:32rpx auto 24rpx auto;
+  border-bottom: 1rpx solid #dddddd;
+}
+.order-top1{
+  height: 40rpx;
+  float: left;
+}
+.ordertop-text1{
+  color: #333333;
+  font-size: 21rpx;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 6rpx;
+}
+.order-top2{
+  float: right;
+  font-size: 20rpx;
+}
+.ordertop-text2{
+  color: #333333;
+  font-size: 20rpx;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 6rpx;
+}
+.order-midden{
+   width: 624rpx;
+   margin:40rpx auto 0 auto;
+   border-bottom: 1rpx solid #dddddd;
+   overflow: hidden;
+   padding-bottom: 38rpx
+}
+.ordermidden-img{
+  width: 222rpx;
+  height: 101rpx;
+  border-radius: 10rpx;
+  display: block;
+  float: left;
+}
+.ordermidden-title{
+  width:231rpx;
+  height:88rpx;
+  color:#333333;
+  font-size:20rpx;
+  overflow:hidden;
+  float:left;
+  line-height:31rpx;
+  padding-left: 40rpx;
+  font-weight: bold;
+}
+.ordermidden-info{
+  float: right;
+}
+.ordermidden-money{
+    color:#333333;
+    font-size:20rpx;
+    font-weight: bold;
+}
+.ordermidden-num{
+    color:#333333;
+    font-size:20rpx;
+    font-weight:bold;
+    margin-top:37rpx;
+    text-align:right;
+}
+.order-bottom{
+    width: 624rpx;
+    margin:14rpx auto 36rpx auto;
+}
+.orderbottom-stat{
+    color:#333333;
+    font-size:20rpx;
+    width: 624rpx;
+    text-align: right;
+}
+.orderbottom-stat02{
+    color:#ff2d2d;
+    font-weight: bold;
+}
+.orderbottom-del{
+    width: 168rpx;
+    height: 48rpx;
+    border: 2rpx solid #333333;
+    border-radius: 30rpx;
+    text-align: center;
+    line-height: 48rpx;
+    font-size: 20rpx;
+    float: right;
+    margin-top: 35rpx;
+}

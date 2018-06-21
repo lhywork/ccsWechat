@@ -1,0 +1,73 @@
+<!--我的订单-->
+  <view class="container">
+    <view class="navbar" bindtap="tabFun">
+        <view class="navbarz">
+            <view class="nav-li " data-id="all">
+                <text data-id="all" class="{{curHdIndex=='all'? 'active' : ''}}">全部</text>
+            </view>
+            <view class="nav-li " data-id="pay">
+                <text data-id="pay" class="{{curHdIndex=='pay'? 'active' : ''}}">已支付</text>
+            </view>
+            <view class="nav-li " data-id="nopay">
+                <text data-id="nopay" class="{{curHdIndex=='nopay'? 'active' : ''}}">未支付</text>
+            </view>
+            <view class="nav-li " data-id="evaluation">
+                <text data-id="evaluation" class="{{curHdIndex=='evaluation'? 'active' : ''}}">待评价</text>
+            </view>
+            <view class="nav-li " data-id="refund">
+                <text data-id="refund" class="{{curHdIndex=='refund'? 'active' : ''}}">退款/售后</text>
+            </view>
+        </view>
+    </view>
+    <view class='page-main'>
+         <view class='order-main'>
+            <view class='order-top clearfix'>
+                <view class='order-top1'>
+                    <text class='ordertop-text1'>2018/06/02  18:46 </text>
+                </view>
+                <view class='order-top2'>
+                    <text class='ordertop-text2'>订单完成</text>
+                </view>
+            </view>
+            <view class='order-midden clearfix'>
+                <image class='ordermidden-img' src="../../images/myorder01.jpg"></image>
+                <view class='ordermidden-title'>订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成</view>
+                <view class='ordermidden-info'>
+                    <view class='ordermidden-money'>￥389</view>
+                    <view class='ordermidden-num'>x1</view>
+                </view>
+            </view>
+            <view class='order-bottom clearfix'>
+                <view class='orderbottom-stat'>
+                    <text class='orderbottom-stat01'>共一件  实付款：</text><text class='orderbottom-stat02'>￥389</text>
+                </view>
+                <button class='orderbottom-del'>删除订单</button>
+            </view>
+       </view>
+       <view class='order-main'>
+            <view class='order-top clearfix'>
+                <view class='order-top1'>
+                    <text class='ordertop-text1'>2018/06/02  18:46 </text>
+                </view>
+                <view class='order-top2'>
+                    <text class='ordertop-text2'>订单完成</text>
+                </view>
+            </view>
+            <view class='order-midden clearfix'>
+                <image class='ordermidden-img' src="../../images/myorder01.jpg"></image>
+                <view class='ordermidden-title'>订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成订单完成</view>
+                <view class='ordermidden-info'>
+                    <view class='ordermidden-money'>￥389</view>
+                    <view class='ordermidden-num'>x1</view>
+                </view>
+            </view>
+            <view class='order-bottom clearfix'>
+                <view class='orderbottom-stat'>
+                    <text class='orderbottom-stat01'>共一件  实付款：</text><text class='orderbottom-stat02'>￥389</text>
+                </view>
+                <button class='orderbottom-del'>删除订单</button>
+            </view>
+       </view>
+    </view>
+  </view> 
+

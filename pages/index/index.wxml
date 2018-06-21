@@ -1,13 +1,50 @@
-<!--index.wxml-->
+<!--首页-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+    <view class='page-main'>
+        <view class='index-top clearfix'>
+            <view class='indextop-left clearfix'>
+                <image class='indextop-img1' src="../../images/index01.png"></image>
+                <view class="index-addressbt">杭州</view>
+            </view>
+            <view class='indextop-midden clearfix'>
+                <image class='indextop-img3' src="../../images/index02.png"></image>
+                <input class='indextop-input' type='text' placeholder='请输入搜索内容'></input>
+            </view>
+            <view class='indextop-right'>
+                <image class='indextop-img2' src="../../images/index03.png"></image>
+                <view class="index-addressbt2">我的</view>
+            </view>
+        </view>
+        <swiper class='J-swiper' interval="3000" duration="1000" autoplay="{{autoplay}}" indicator-dots="{{indicatorDots}}" indicator-active-color="{{indicatorActiveColor}}" indicator-color="{{indicatorColor}}">
+            <block wx:for="{{imgUrls}}" wx:key="key">
+                <swiper-item>
+                    <image src="{{item}}" class="slide-image" />
+                </swiper-item>
+            </block>
+        </swiper>
+        <view class='indexbj indexbj01'>
+            <view class="indexBrand">
+                <view class="indexBrmidden clearfix">
+                    <input type="text" placeholder="陶瓷品牌搜索报价" class="indexBrmidden-input"></input>
+                    <view class="indexBrmidden-symbol clearfix">》</view>
+                </view>
+            </view>
+        </view>
+        <view class='indexbj indexbj02'>
+            <view class="indexBrand">
+                <view class="indexBrmidden clearfix">
+                    <input type="text" placeholder="陶瓷品牌工程定制" class="indexBrmidden-input"></input>
+                    <view class="indexBrmidden-symbol clearfix">》</view>
+                </view>
+            </view>
+        </view>
+        <view class='indexbj indexbj03'>
+            <view class="indexBrand">
+                <view class="indexBrmidden clearfix">
+                    <input type="text" placeholder="陶瓷品牌产品供应链" class="indexBrmidden-input"></input>
+                    <view class="indexBrmidden-symbol clearfix">》</view>
+                </view>
+            </view>
+        </view>
+    </view>
 </view>

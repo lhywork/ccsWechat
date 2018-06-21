@@ -1,0 +1,45 @@
+/**login.wxss**/
+page{
+  width: 100%;
+  min-height: 100%;
+  background-color: #f7f7f7;
+}
+.page-main {
+  width: 750rpx;
+  margin: 0 auto;
+}
+.loginimg{
+	width: 100%;
+	height: 273rpx;
+}
+.page-form{
+	width: 100%;
+	height: 102rpx;
+	border-bottom: 1rpx solid #f7f7f7;
+	background-color: #fff;
+}
+.number-input{
+	margin-left: 75rpx;
+	font-size: 36rpx;
+	color: #666666;
+	line-height: 102rpx;
+	height: 102rpx;
+}
+.pwd-input{
+	margin-left: 75rpx;
+	font-size: 36rpx;
+	color: #666666;
+	line-height: 102rpx;
+	height: 102rpx;
+}
+.login-button{
+	width:680rpx;
+	height:83rpx;
+	background-color:#dc2f33;
+	border-radius:40rpx;
+	margin: 0 auto;
+	margin-top: 53rpx;
+	color: #fff;
+	font-size: 33rpx;
+}
+

@@ -1,0 +1,65 @@
+<!--留言-->
+  <view class="container">
+    <view class='page-main'>
+       <view class='page-ul'>
+            <view class='page-li clearfix'>
+                <image class='leave-img' src="../../images/leavemessage01.png"></image>
+                <view class='page-liright'>
+                    <view class='page-li-title'>如风</view>
+                    <view class='page-li-describe'>实现人类对家的梦想~</view>
+                    <view class='page-li-time'>17小时前</view>
+                </view>
+            </view>
+            <view class='page-li clearfix'>
+                <image class='leave-img' src="../../images/leavemessage01.png"></image>
+                <view class='page-liright'>
+                    <view class='page-li-title'>如风</view>
+                    <view class='page-li-describe'>实现人类对家的梦想~</view>
+                    <view class='page-li-time'>
+                        <text class="page-time1">2018-05-30</text>
+                        <text class="page-time2">10：03</text>
+                    </view>
+                </view>
+            </view>
+            <view class='page-li clearfix'>
+                <image class='leave-img' src="../../images/leavemessage01.png"></image>
+                <view class='page-liright'>
+                    <view class='page-li-title'>如风</view>
+                    <view class='page-li-describe'>实现人类对家的梦想~</view>
+                    <view class='page-li-time'>17小时前</view>
+                </view>
+            </view>
+            <view class='page-li clearfix'>
+                <image class='leave-img' src="../../images/leavemessage01.png"></image>
+                <view class='page-liright'>
+                    <view class='page-li-title'>如风</view>
+                    <view class='page-li-describe'>实现人类对家的梦想~</view>
+                    <view class='page-li-time'>
+                        <text class="page-time1">2018-05-30</text>
+                        <text class="page-time2">10：03</text>
+                    </view>
+                </view>
+            </view>
+            <view class='page-li clearfix'>
+                <image class='leave-img' src="../../images/leavemessage01.png"></image>
+                <view class='page-liright'>
+                    <view class='page-li-title'>如风</view>
+                    <view class='page-li-describe'>实现人类对家的梦想~</view>
+                    <view class='page-li-time'>17小时前</view>
+                </view>
+            </view>
+            <view class='page-li clearfix'>
+                <image class='leave-img' src="../../images/leavemessage01.png"></image>
+                <view class='page-liright'>
+                    <view class='page-li-title'>如风</view>
+                    <view class='page-li-describe'>实现人类对家的梦想~</view>
+                    <view class='page-li-time'>
+                        <text class="page-time1">2018-05-30</text>
+                        <text class="page-time2">10：03</text>
+                    </view>
+                </view>
+            </view>
+       </view>
+    </view>
+  </view> 
+

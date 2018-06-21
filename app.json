@@ -1,7 +1,12 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/leavemessage/leavemessage",
+    "pages/manageaddress/manageaddress",
+    "pages/newaddress/newaddress",
+    "pages/myorder/myorder"
   ],
   "window":{
     "backgroundTextStyle":"light",

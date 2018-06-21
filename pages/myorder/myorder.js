@@ -1,28 +1,28 @@
-//index.js
+//myorder.js
 //获取应用实例
 const app = getApp()
 
 Page({
   data: {
     motto: 'Hello World',
-    imgUrls: [
-      '../../images/index04.jpg',
-      '../../images/index04.jpg',
-      '../../images/index04.jpg'
-    ],
     userInfo: {},
-    autoplay: true,
-    indicatorDots: true,
     hasUserInfo: false,
-    indicatorColor: '#ffffff',
-    indicatorActiveColor: '#dd271e',
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    curHdIndex:'all'
   },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'
     })
+  },
+  tabFun: function(e){ 
+    var self = this;  
+    //获取触发事件组件的dataset属性 
+    var datasetId=e.target.dataset.id;
+    this.setData({  
+      curHdIndex: datasetId,
+    }); 
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -59,5 +59,5 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
 })

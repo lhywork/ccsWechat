@@ -1,0 +1,43 @@
+/**leavemessage.wxss**/
+.page-main {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.page-ul{
+	width:100%;
+	margin:auto 40rpx;
+}
+.page-li{
+	width: 100%;
+	margin-top: 93rpx;
+	margin-bottom: 99rpx;
+}
+.leave-img{
+	width: 72rpx;
+	height: 72rpx;
+	border-radius: 50%;
+	display: block;
+	float: left;
+}
+.page-liright{
+	float: right;
+	width: 652rpx;
+}
+.page-li-title{
+	color: #333333;
+	font-size: 30rpx;
+	padding-bottom: 18rpx;
+}
+.page-li-describe{
+	color: #333333;
+	font-size: 36rpx;
+}
+.page-li-time{
+	color: #999999;
+	font-size: 30rpx;
+	padding-top: 30rpx
+}
+.page-time2{
+	padding-left: 30rpx;	
+}
