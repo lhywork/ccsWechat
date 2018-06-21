@@ -1,12 +1,18 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/search/index",
+    "pages/order/commit",
+    "pages/comment/add",
+    "pages/message/submit",
+    "pages/reg/index",
+    "pages/user/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#dc2f33",
+    "navigationBarTitleText": "瓷砖联合仓储",
+    "navigationBarTextStyle":"#fff"
   }
 }

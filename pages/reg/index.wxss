@@ -1,0 +1,58 @@
+/**index.wxss**/
+page {
+  background: #f7f7f7;
+}
+.main-banner{
+    width: 100%;
+    height: 271rpx;
+}
+.main-banner image{
+    width: 100%;
+    height: 100%;
+}
+.main-mid{
+  width: 100%; 
+  background: #fff;
+}
+.main-form{
+   padding: 8rpx 50rpx 0;
+   display: block; 
+}
+.flex-warp{
+  align-items: center;
+  justify-content: space-between;
+}
+.form-group {
+  height: 138rpx;
+  line-height: 138rpx;
+  border-bottom:2rpx solid #f7f7f7;
+  font-size: 30rpx;
+  color: #666666; 
+}
+.form-group input{
+  height: 100%;
+}
+.form-code{
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 1rpx solid #ddd;
+  font-size: 28rpx;
+  color: #666666;
+  border-radius: 10rpx;
+}
+.main-button{
+  width: 100%;
+}
+.main-button button{
+  margin:80rpx 35rpx 0;
+  background: #dc2f33;
+  color: #fff;
+}
+.go-login{
+  padding: 40rpx 35rpx 0;
+  float: right;
+  font-size: 26rpx;
+  color: #666666; 
+}

@@ -1,0 +1,49 @@
+/**index.wxss**/
+.main-banner{
+  width: 100%;
+  height: 271rpx;
+}
+.main-banner image{
+  width: 100%;
+  height: 100%;
+}
+.main-mid{
+  width: 100%; 
+  background: #fff;
+  overflow: hidden
+}
+.main-form{
+   padding: 0 20rpx 80rpx;
+   display:block; 
+}
+.comment-icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+.comment-title{
+  padding: 50rpx 0 90rpx;
+  margin-bottom: 20rpx;
+  color: #333333;
+  font-size: 36rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.comment-textarea{
+  padding: 50rpx 0 90rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.comment-box{
+  padding: 0 25rpx;
+}
+.comment-textarea textarea{
+  width: 100%; 
+  height: 150rpx;
+}
+.main-button{
+  width: 100%;
+}
+.main-button button{
+  margin:100rpx 35rpx 0;
+  background: #dc2f33;
+  color: #fff;
+}

@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main-banner">
+      <image src="../../images/search.jpg"></image>
+  </view>
+  <form>
+    <view class='main-mid'>
+      <view class='main-form'>
+        <view class='comment-title'>
+          <view class='flex-warp'>
+            <image class='comment-icon' src='../../images/icon-comment.png'></image> 
+            <text>瓷砖联合仓储\n耐磨室内地砖全抛釉</text>            
+          </view>         
+        </view>
+        <view class='comment-textarea'>
+          <view class='comment-box'>
+            <textarea placeholder="点赞都是套路，评论才是真情~" name="content"></textarea>
+          </view>       
+        </view>
+      </view>
+    </view>
+    <view class='main-button'>
+      <button>提交评论</button>
+    </view>
+  </form>
+</view>

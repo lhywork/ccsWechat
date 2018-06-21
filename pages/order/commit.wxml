@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main-banner">
+      <view class='main-info'>
+        <image class='user-avatar' src='../../images/avatar.png'></image>
+         <text class='user-name'>星月</text> 
+      </view>
+  </view>
+  <view class='main-mid'>
+    <view class='main-form'>
+        <view class='shop-items'>
+          <view class='shop-list'>
+              <view class='shop-list-box'>
+                <view class='list-title'>购买商品</view>
+                <view class='list-item' wx:for="{{carts}}" wx:key="index">
+                  <view class='list-pic'>
+                    <image src='{{item.pic}}'></image>
+                  </view>
+                  <view class='list-shop-info'>
+                    <view><text>{{item.title}}</text><text class='list-right'>￥{{item.price}}</text></view>
+                    <view class='list-quantity'>
+                      <button class='btn-minus' bindtap='bindMinus' data-index="{{index}}">-</button>
+                      <text class='btn-input'>{{item.num}}</text>
+                      <button class='btn-plus' bindtap='bindPlus' data-index="{{index}}">+</button>
+                    </view>
+                  </view>
+                </view>               
+                <view class='list-totle'>小计：<text class='red'>￥{{totalPrice}}</text></view>
+              </view>
+          </view>
+        </view>
+        <view class='address-items'>
+          <view class='address-list'>
+              <view class='address-list-box'>
+                  <view class='list-title'>收货地址</view>
+                  <view class='list-item'>
+                    <view class='list-address-info'>
+                      <text>收货人：刘超伟</text><text class='list-right'>15649852564</text>
+                    </view>                  
+                    <view class='list-address'>浙江杭州市拱墅区祥园路166号华滋科欣4号楼9楼</view>
+                  </view>
+              </view>
+          </view>
+        </view>
+    </view>
+  </view>
+  <view class='main-bottom'>
+    <text class='bottom-text'>实付款：<text class='red'>￥{{totalPrice}}</text></text>
+    <button class='main-button'>确定支付</button>
+  </view>
+</view>
