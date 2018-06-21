@@ -1,0 +1,137 @@
+/**index.wxss**/
+page{
+  background: #f7f7f7;
+}
+.main-banner{
+  width: 100%;
+  background: #fff;
+  border-bottom:1rpx solid #ddd; 
+}
+.main-info{
+  padding: 30rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.user-avatar{
+  width: 70rpx;
+  height: 70rpx;
+  display: inline-block;
+}
+.user-name{
+  display: inline-block;
+  height: 70rpx;
+  vertical-align: top;
+  margin-left: 30rpx;
+}
+.main-mid{
+  width: 100%;
+}
+.main-form{
+  padding: 65rpx 30rpx 130rpx;
+}
+.shop-list,.address-list{
+  width: 100%;
+  /* height: 438rpx; */
+  background: #fff;
+  border-radius: 15rpx;
+  box-shadow: 0 5rpx 20rpx rgba(0,0,0,.1);
+  margin-bottom: 34rpx;
+}
+.shop-list-box,.address-list-box{
+  padding: 0 35rpx 30rpx;
+}
+.list-title{
+  height: 78rpx;
+  line-height: 78rpx;
+  border-bottom:1rpx solid #ddd; 
+}
+.list-item{
+  padding: 50rpx 0;
+  overflow:hidden;
+}
+.shop-list .list-item{
+  border-bottom:1rpx solid #ddd; 
+}
+.list-pic{
+  width: 220rpx;
+  /* height: 130rpx; */
+  float: left;
+}
+.list-pic image{
+  width: 220rpx;
+  height: 130rpx; 
+  border-radius: 15rpx;
+}
+.list-shop-info{
+  float: right;
+  width: 360rpx;
+  padding-left:40rpx; 
+  /* height: 130rpx; */
+}
+.list-right{
+  float: right;
+}
+.list-quantity{
+  width: 100%;
+  text-align: right;
+  margin-top: 50rpx;
+}
+.btn-input{
+   width: 80rpx;
+   height: 46rpx;
+   line-height: 46rpx;
+   text-align: center;
+   display: inline-block;
+   vertical-align: top;
+}
+.btn-minus,.btn-plus{
+  width: 46rpx;
+  height: 46rpx;
+  line-height: 46rpx;
+  background: #f8f8f8;
+  padding: 0;
+  margin: 0;
+  border-radius:0;
+  text-align: center;
+  display: inline-block;
+  font-size: 24rpx;
+}
+ button.btn-minus::after,button.btn-plus::after{ border-radius:0; } 
+.list-totle{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: right;
+}
+.list-address{
+  color: #333333;
+  margin-top: 10rpx;
+}
+.main-bottom{
+  width: 100%;
+  height: 125rpx;
+  line-height: 125rpx;
+  border-top:1rpx solid #ddd; 
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.bottom-text{
+  padding-left: 30rpx;
+  font-size: 30rpx;
+}
+.red{
+  color: #dc2f33;
+}
+.main-button{
+  float: right;
+  width: 200rpx;
+  height: 82rpx;
+  line-height: 82rpx;
+  background: #dc2f33;
+  color: #fff;
+  text-align: center;
+  font-size: 26rpx;
+  margin: 21rpx 25rpx 0 0;
+}

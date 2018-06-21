@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main-banner">
+      <image src="../../images/search.jpg"></image>
+  </view>
+  <form>
+    <view class='main-mid'>
+      <view class='main-form'>
+        <view class='form-select'>
+          <picker mode="selector" range="{{brand}}" value="{{index}}" bindchange="bindBrandSelect">
+            <view class='form-input'>
+              <image src='../../images/icon-search.png'></image>
+              <text>{{brand[brandIndex]}}</text>
+            </view>
+          </picker>
+          <text class='cancel'>取消</text>
+        </view>
+        <view class='form-select nbt'>
+          <picker mode="selector" range="{{model}}" value="{{index}}" bindchange="bindModelSelect">
+            <view class='form-input'>
+              <image src='../../images/icon-search.png'></image>
+              <text>{{model[modelIndex]}}</text>
+            </view>
+          </picker>
+          <text class='cancel'>取消</text>
+        </view>
+        <view class='form-title'>猜你喜欢</view>
+        <view class='box-ul flex-warp'>
+          <text class="flex-item">1295 仿古砖</text>
+          <text class="flex-item">多瑙蓝  A2</text>
+          <text class="flex-item">1295 仿古砖</text>
+          <text class="flex-item">多瑙蓝</text>
+          <text class="flex-item">劳伦黑金  CC</text>
+          <text class="flex-item">墨韵石  F2</text>
+          <text class="flex-item">1689 微晶石</text>
+          <text class="flex-item">翠玉石</text>
+        </view>
+      </view>
+    </view>
+    <view class='main-button'>
+      <button formType="submit">查询</button>
+    </view>
+  </form>
+</view>

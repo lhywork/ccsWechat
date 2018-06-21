@@ -1,0 +1,84 @@
+/**index.wxss**/
+.main-banner{
+    width: 750rpx;
+    height: 271rpx;
+    background: #1f1a17;
+}
+.main-info{
+  padding: 60rpx;
+  overflow: hidden
+}
+.user-img{
+  float: left;
+  margin-right: 26rpx;
+  position: relative;
+}
+.user-img .user-avatar{
+  width: 118rpx;
+  height: 118rpx;
+}
+.user-grade{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  bottom: 5rpx;
+  right: -1rpx;
+  z-index: 2;
+}
+.user-info{
+  float: left;
+  height: 118rpx;
+  color: #fff;
+  padding: 20rpx 0;
+  vertical-align: top;
+}
+.user-name{
+  font-size: 33rpx;
+  color: #fff;
+  margin-bottom: 5rpx;
+}
+.user-info image{
+  display: inline-block;
+  width: 26rpx;
+  height: 33rpx;
+  vertical-align: middle;
+  position: relative;
+  top: -1rpx;
+}
+.user-sex{
+  display: inline-block;
+}
+.user-point{
+  display: inline-block;
+  margin-left: 25rpx;
+}
+.main-mid{
+  width: 100%; 
+  background: #fff;
+}
+.main-form{
+   padding: 36rpx 50rpx 80rpx; 
+}
+.main-list{
+  height: 144rpx;
+  border-bottom:1rpx solid #ddd;
+  font-size: 33rpx; 
+}
+.list-text{
+  color: #333333;
+}
+.list-more{
+  color: #cccccc;
+}
+.flex-warp{
+  align-items: center;
+  justify-content: space-between;
+}
+.main-button{
+  width: 100%;
+}
+.main-button button{
+  margin:80rpx 35rpx 0;
+  background: #dc2f33;
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main-banner">
+      <view class='main-info'>
+        <view class='user-img'>
+          <image class='user-avatar' src='../../images/avatar.png'></image>
+          <image class='user-grade' src='../../images/V3.png'></image>
+        </view>
+        <view class='user-info'>
+            <view class='user-name'>星月</view>
+            <view class='user-sex'>
+              <text>性别:</text><image src='../../images/sex-n.png'></image>
+            </view>      
+            <view class='user-point'>
+              <text>积分:</text><image src='../../images/icon-coin.png'></image><text>5662</text>
+            </view>        
+        </view>
+      </view>
+  </view>
+  <view class='main-mid'>
+    <view class='main-form'>
+      <view class='main-list flex-warp'>
+        <text class='flex-item list-text'>我的订单</text>
+        <text class='flex-item list-more'>更多</text>
+      </view>
+      <view class='main-list flex-warp'>
+        <text class='flex-item list-text'>我的留言</text>
+        <text class='flex-item list-more'>更多</text>
+      </view>
+    </view>
+  </view>
+  <view class='main-button'>
+    <button>保存</button>
+  </view>
+</view>

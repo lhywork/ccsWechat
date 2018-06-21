@@ -1,0 +1,78 @@
+/**index.wxss**/
+page {
+  background: #f7f7f7;
+}
+.main-banner{
+    width: 750rpx;
+    height: 271rpx;
+}
+.main-banner image{
+    width: 100%;
+    height: 100%;
+}
+.main-mid{
+  width: 100%; 
+  background: #fff;
+}
+.main-form{
+   padding: 0 50rpx 80rpx;
+   display:block; 
+}
+.form-select{
+  border-bottom:1rpx solid #f7f7f7;
+  padding: 50rpx 0 30rpx; 
+}
+.form-select.nbt{
+  border-bottom: none;
+}
+.form-select picker{
+  width: 520rpx;
+  display: inline-block;
+}
+.form-select .form-input{
+  height: 70rpx;
+  border-radius: 70rpx;
+  border:  1rpx solid #e46660;
+  color: #666666;
+  text-indent: 136rpx;
+  position: relative;
+}
+.form-select .form-input image{
+  width: 60rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 0;
+  left: 45rpx;
+}
+.form-select .form-input text{
+  height: 74rpx;
+  line-height: 74rpx;
+}
+.form-select .cancel{
+  width: 130rpx;
+  height: 74rpx;
+  line-height: 74rpx;
+  text-align: center;
+  display: inline-block;
+  vertical-align:top;
+  color: #666666;
+}
+.form-title{
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-bottom: 20rpx;
+  color: #666666;
+  font-size: 28rpx;
+}
+.comment-box textarea{
+  width: 100%;
+  height: 200rpx;
+}
+.main-button{
+  width: 100%;
+}
+.main-button button{
+  margin:80rpx 35rpx 0;
+  background: #dc2f33;
+  color: #fff;
+}

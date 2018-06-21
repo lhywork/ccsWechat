@@ -6,6 +6,17 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  font-size: 26rpx;
+}
+form{
+  width: 100%;
+}
+.flex-warp {
+  display: flex;
+  flex-flow: wrap;
 } 
 .clearfix:after { content: '.'; display: block; clear: both; height: 0; visibility: hidden; }
 .clearfix { zoom: 1; }
+.flex-item {
+  text-align: center;
+}
